@@ -6,7 +6,7 @@ USER root
 RUN apt-get update && apt-get install -y supervisor wget unzip
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-ENV UUID 65501640-e7de-4312-8efd-decf47f3c297
+ENV UUID 6b864b66-a501-4c95-8e36-7b30b772c491
 ENV VMESS_WSPATH /vmess
 ENV VLESS_WSPATH /vless
 
